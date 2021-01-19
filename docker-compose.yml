@@ -1,9 +1,9 @@
 version: "3.9"
-
 services:
   db:
     image: postgres
     environment:
+    # foo
       - POSTGRES_DB=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
